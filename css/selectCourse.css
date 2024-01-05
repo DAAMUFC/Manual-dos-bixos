@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Retro-Gaming";
+  src: url('fonts/retro_gaming/Retro-Gaming.ttf');
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: "Retro-Gaming";
+}
+
+.selectCourse{
+  display: grid;
+  padding: 0px 10vw;
+  gap: 2vw;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.selectImage {
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../img/selectCourse.png') no-repeat center;
+  background-size: 20vw;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;  
+}
+h1 {
+  color: hsl(225, 80%, 8%);
+  font-size: 1.55vw;
+  font-weight: 100;
+}

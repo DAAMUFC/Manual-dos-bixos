@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Retro-Gaming";
+  src: url('fonts/retro_gaming/Retro-Gaming.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Retro-Gaming";
+}
+
+.menu {
+  float: left;
+  width: 18vw;
+  height: 100vh;
+  border: 2px solid red;
+}
+.campo {
+  width: 80vw;
+  height: 100vh;
+  float: left;
+  margin: 0;
+  border: 2px solid red;
+  padding: 0px;
+  gap: 0px;
+}
+.dialogue {
+  display: grid;
+  padding: 0px 5vw;
+  gap: 0px;
+  grid-template-columns: repeat(3, 1fr);
+}
+/*.frame {
+  border: 2px solid red;
+
+  background-image: url('img/canto.png');
+  background-repeat: repeat;
+  /* Ajuste a porcentagem conforme desejado 
+}*/
+
+.frameCanto {
+  height: 3vw;
+  width:3vw;
+  background-image: url('../img/canto.png');
+  background-size: 3vw;
+}
+
+#upFrame {
+  background-image: url('../img/cima.png');
+  background-size: 3vw;
+}
+
+#RightFrame {
+  background-image: url('../img/lado.png');
+  background-size: 3vw;
+}
+
+#LeftFrame {
+  background-image: url('../img/lado.png');
+  background-size: 3vw;
+}
+
+#downFrame {
+  background-image: url('../img/cima.png');
+  background-size: 3vw;
+}
+
+#textDialogue {
+  width: 65vw;
+  height: 10vh;
+  margin: 0px;
+}
