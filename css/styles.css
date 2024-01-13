@@ -9,12 +9,6 @@ body {
   font-family: "Retro-Gaming";
 }
 
-.menu {
-  float: left;
-  width: 18vw;
-  height: 100vh;
-  border: 2px solid red;
-}
 .campo {
   width: 80vw;
   height: 100vh;

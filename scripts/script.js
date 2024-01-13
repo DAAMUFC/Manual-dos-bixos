@@ -32,3 +32,24 @@ const course = urlParams.get('course') === 'EngComp' ? 'Engenharia de Computaç�
 var fristMensage  = `Bom dia.\nVocê parece ser novo por aqui. Espero que goste do curso de  ${course}`;
 var speed = 50;
 
+async function loadElement(nameElement) {
+  
+
+  // Carregar arquivo CSS com base no nome do elemento
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = `./elements/${nameElement}/${nameElement}.css`;
+  document.head.appendChild(link);
+
+  // Carregar arquivo JS com base no nome do elemento
+  var script = document.createElement('script');
+  script.src = `./elements/${nameElement}/${nameElement}.js`;
+  document.body.appendChild(script);
+  // Carregar arquivo HTML com base no nome do elemento
+  await fetch(`./elements/${nameElement}/${nameElement}.html`)
+    .then(response => response.text())
+    .then(html => {
+      document.querySelector(`.${nameElement}`).innerHTML = html;
+    });
+
+}
