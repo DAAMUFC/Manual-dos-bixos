@@ -5,3 +5,10 @@
   border: 2px solid red;
 }
 
+a {
+  text-decoration: none;
+  text-align: center;  
+  color: hsl(225, 80%, 8%);
+  font-size: 1.55vw;
+  font-weight: 100;
+}
