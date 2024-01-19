@@ -6,6 +6,7 @@
 }
 
 a {
+  display: block;
   text-decoration: none;
   text-align: center;  
   color: hsl(225, 80%, 8%);
