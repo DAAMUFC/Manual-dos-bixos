@@ -12,23 +12,58 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Retro-Gaming";
+  background-color: #94B0C2;
+  background: url('../img/deti_pixelado_Prancheta 1-05.png') no-repeat center;
+  background-size: auto 110vh;
 }
 
+.principalTitle {
+  overflow: hidden;
+  position: relative;
+}
+
+.principalTitle img {
+  height: 50vh;
+}
+
+#pannelText {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+#principalText {
+  position: relative;
+}
 .selectCourse{
-  display: grid;
+  display: block;
   padding: 0px 10vw;
-  gap: 2vw;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .selectImage {
-  width: 20vw;
-  height: 20vw;
-  display: flex;
+  width: 30vw;
+  height: 10vw;
+  display: block;
   align-items: center;
   justify-content: center;
-  background: url('../img/selectCourse.png') no-repeat center;
-  background-size: 20vw;
+  padding: 1vw;
+}
+
+
+#EngComp {
+  background: url('../img/button_comp_Prancheta 1-05.png') no-repeat center;
+  background-size: 30vw;
+}
+
+#EngTelecom {
+  background: url('../img/button_telecom_Prancheta 1-05.png') no-repeat center;
+  background-size: 30vw;
+}
+
+#EngComp:hover, #EngTelecom:hover {
+  background-size: 32vw;
 }
 
 a {
@@ -36,6 +71,7 @@ a {
   text-align: center;  
 }
 h1 {
+  display: none;
   color: hsl(225, 80%, 8%);
   font-size: 1.55vw;
   font-weight: 100;

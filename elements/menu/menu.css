@@ -1,8 +1,7 @@
 .menu {
   float: left;
-  width: 18vw;
+  width: 20vw;
   height: 100vh;
-  border: 2px solid red;
 }
 
 a {

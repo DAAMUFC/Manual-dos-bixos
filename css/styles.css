@@ -14,7 +14,6 @@ body {
   height: 100vh;
   float: left;
   margin: 0;
-  border: 2px solid red;
   padding: 0px;
   gap: 0px;
 }
@@ -24,13 +23,6 @@ body {
   gap: 0px;
   grid-template-columns: repeat(3, 1fr);
 }
-/*.frame {
-  border: 2px solid red;
-
-  background-image: url('img/canto.png');
-  background-repeat: repeat;
-  /* Ajuste a porcentagem conforme desejado 
-}*/
 
 .frameCanto {
   height: 3vw;

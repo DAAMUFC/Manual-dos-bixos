@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
+  <meta charset="utf-8">
   <title>Manual dos bixos 2024</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
   <link rel="stylesheet" type="text/css" href="./css/selectCourse.css">
 </head>
 <body>
+  
+  <div class="principalTitle" >
+    <img id = "pannelText" src="img/pannel_text_principal_Prancheta 1-05.png">
+    <img id = "principalText" src="img/text_principal_Prancheta 1-05.png">
+    <h1>Manual dos bixos 2024.1</h1>
+  </div>
+
   <div class="selectCourse">
-    <a class="selectImage" href = "./init.html" onclick= "courseSelected(event, 'EngComp')" >
+    <a class="selectImage" id="EngComp" href = "./init.html" onclick= "courseSelected(event, 'EngComp')" >
       <h1>Engenharia<br />de<br />Computação</h1> 
     </a>
-    <a class="selectImage" href = "./init.html" onclick= "courseSelected(event, 'EngTelecom')" >
+    <a class="selectImage" id="EngTelecom" href = "./init.html" onclick= "courseSelected(event, 'EngTelecom')" >
       <h1>Engenharia<br />de<br />Telecomunicações</h1> 
     </a>  
   </div>
